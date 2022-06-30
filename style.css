@@ -1,0 +1,63 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+form{
+    width: 500px;
+    padding:100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: yellow;
+    text-align: center;
+}
+form, h1{
+    font-size: 35px;
+    color: white;
+}
+p{
+    font-size: 20px;
+    color: white;
+}
+
+form, input[type="text"], input[type="password"], input[type="email"]{
+    border: 0;
+    width: 300px;
+    background-color:none;
+    display: block;
+    outline: none;
+    margin: 20px auto;
+    text-align: center;
+    border: solid grey 2px;
+    padding:14px 40px
+    color: white;
+    border-radius:24px;
+    transition: 2s;
+}
+
+form, input[type="text"]:focus, input[type="password"]:focus, input[type="email"]{
+    width: 280px;
+    border-color: blue;
+}
+
+form, input[type="submit"]{
+    border: 0;
+    background-color: rgba(0, 0, 0, 90);
+    font-size: 18px;
+    display: block;
+    margin: 50px auto;
+    text-align: center;
+    border: solid grey 2px;
+    padding:10px 30px
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form, input[type="submit"]:hover{
+    background-color: #000;
+    color:aqua;
+}
